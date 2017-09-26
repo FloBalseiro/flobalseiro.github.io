@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,800,900');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+div.clear{
+	clear: both;
+}
+
+img, a{
+	display: block;
+}
+
+#hero{
+	margin: 0 auto;
+	background-image: url("images/hero-bg.png");
+}
+
+#hero img{
+	width: 140px;
+	margin: 0 auto;
+	padding-top: 130px;
+	padding-bottom: 20px;	
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+p{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+}
+
+#hero p{
+	width: 60%;
+	margin: 0 auto;
+}
+
+a{
+	margin: 0 auto;
+}
+
+.button{
+    background-color: #1c4ae0;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#hero .btncontainer{
+	padding-bottom: 130px;
+}
+
+#heretostay{
+	background-color: #def4fb;
+}
+
+.content{
+	padding-top: 80px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#heretostay img{
+	width: 200px;
+	margin: 0 auto;
+}
+
+#heretostay h1{
+	color: #1c4ae0;
+	margin-bottom: 30px;
+}
+
+#heretostay p{
+	color: #333;
+	text-align: left;
+	padding-bottom: 120px;
+}
+
+#whoare{
+	padding-top: 120px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#whoare h1{
+	color: #1c4ae0;
+	margin-bottom: 20px;
+}
+
+#whoare p{
+	color: #333;
+	padding-bottom: 40px;
+}
+
+#whoare .dreamer1{
+	background-image: url("images/dreamer-1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#whoare .dreamer2{
+	background-image: url("images/dreamer-2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#whoare .dreamer3{
+	background-image: url("images/dreamer-3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#whoare .dreamers h2, #whoare .dreamers p, #whoare .dreamers a{
+	color: #fff;
+	text-align: left;
+	margin-left: 70px
+}
+
+#whoare .dreamers h2{
+	padding-top: 50px;
+}
+
+#whoare .dreamers p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 40%;
+}
+
+#whoare .dreamers a{
+	text-transform: uppercase;
+	font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: #1c4ae0;
+
+}
+
+#whoare .dreamer1, #whoare .dreamer2, #whoare .dreamer3 {
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+#whoare .dreamers{
+	padding-bottom: 120px;
+}
+
+#makecongress{
+	background-image: url("images/makecongress-bg.png");
+}
+
+#makecongress h1{
+	padding-top: 120px;
+	margin-bottom: 50px;
+}
+
+#makecongress img{
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-bottom: 120px;
+}
+
+#footer{
+	background-color: #333;
+}
+
+#footer .facebook, #footer .twitter{
+	width: 50%;
+	float: left;
+} 
+
+#footer img{
+	width: 80px;
+	margin: 0 auto;
+	padding-bottom: 12px;
+}
+
+.sm{
+	padding-top: 50px;
+	width: 40%;
+	margin: 0 auto;
+	border-bottom: 3px solid #5c5c5c;
+}
+
+#footer p{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footer .facebook h3, #footer .twitter h3{
+	color: #fff;
+	text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+
+#fflogo{
+	background-color: #262626;
+}
+
+#fflogo img{
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#fflogo p{
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 8px;
+}
